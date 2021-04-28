@@ -9,8 +9,16 @@ import Button from '../../components/Button';
 
 import { Container, Content, Background } from './styles';
 
+// interface SignUpFormData {
+//     name: string;
+//     email: string;
+//     password: string;
+//   }
+
 const SignUp: React.FC = () => {
-    function handleSubmit(data: object): void {}
+    function handleSubmit(data: object): void {
+        console.log(data);
+    }
 
     return (
         <Container>
