@@ -32,7 +32,7 @@ const SignUp: React.FC = () => {
                     .email('Digite um e-mail válido'),
                 password: Yup.string()
                     .required('Senha obrigatória')
-                    .min(6, 'Senha com no mínimo 6 dígitos.'),
+                    .min(6, 'Mínimo 6 dígitos.'),
             });
 
             await schema.validate(data, {
