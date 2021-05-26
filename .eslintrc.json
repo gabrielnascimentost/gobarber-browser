@@ -24,7 +24,7 @@
         "prettier"
     ],
     "rules": {
-        "import/no-duplicates": ["warn", {"considerQueryString": true}],
+        "import/no-duplicates": "off",
         "camelcase": "off",
         "prettier/prettier": "error",
         "react/jsx-one-expression-per-line": "off",

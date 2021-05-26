@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
-// eslint-ignore-line
+
 import { isToday, isAfter, format, parseISO } from 'date-fns';
-// eslint-ignore-line
 import ptBR from 'date-fns/locale/pt-BR';
 
 import DayPicker, { DayModifiers } from 'react-day-picker';
